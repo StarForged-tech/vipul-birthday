@@ -107,7 +107,7 @@ export default function VipulBirthday() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6 }} className="text-center space-y-8 w-full max-w-2xl mx-auto flex flex-col items-center justify-center min-h-[70vh]">
                 <h1 className="text-4xl md:text-6xl font-extrabold text-purple-400 tracking-wide">⏳ The Awakening Begins</h1>
-                {false ? (
+                {timeLeft ? (
                   <div className="text-2xl">
                     {timeLeft.d}d {timeLeft.h}h {timeLeft.m}m {timeLeft.s}s
                   </div>
